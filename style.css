@@ -29,6 +29,9 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  /* 한국어 어절 단위 줄바꿈 (글자 중간에서 안 끊기게) */
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 body.lightbox-open { overflow: hidden; }
